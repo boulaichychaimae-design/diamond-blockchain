@@ -1,0 +1,168 @@
+[
+  {
+    "index": 0,
+    "timestamp": "2026-11-15 01:43:21",
+    "data": {
+      "message": "Bloc de genese"
+    },
+    "previous_hash": "0",
+    "hash": "f7d7cde85a0aa1cc1dd66484f2c8c7777d0084686e0b95cd70a0b96a3d898429"
+  },
+  {
+    "index": 1,
+    "timestamp": "2026-11-15 01:43:21",
+    "data": {
+      "test": "sauvegarde"
+    },
+    "previous_hash": "f7d7cde85a0aa1cc1dd66484f2c8c7777d0084686e0b95cd70a0b96a3d898429",
+    "hash": "795d0d507beb682b5bd1fab8352afb9b20453ae110410c8c91104629046eceb2"
+  },
+  {
+    "index": 2,
+    "timestamp": "2026-11-15 10:56:46",
+    "data": {
+      "agent": "Agent_RandomForest",
+      "prevision": 1520,
+      "action": "acheter",
+      "date": "2026-11-15"
+    },
+    "previous_hash": "795d0d507beb682b5bd1fab8352afb9b20453ae110410c8c91104629046eceb2",
+    "hash": "05a872f822b85def397e9faa342efe212aefc340219df7a53b6e9ef790615561"
+  },
+  {
+    "index": 3,
+    "timestamp": "2026-11-15 10:57:56",
+    "data": {
+      "agent": "RandomForest_Agent",
+      "forecast": 1520,
+      "action": "buy",
+      "date": "2026-11-15"
+    },
+    "previous_hash": "05a872f822b85def397e9faa342efe212aefc340219df7a53b6e9ef790615561",
+    "hash": "3df8be0cb9d15fe566785fbd83c0800f6f7dadc200099e1f3a6c406f4d4f5f37"
+  },
+  {
+    "index": 4,
+    "timestamp": "2026-11-15 13:29:06",
+    "data": {
+      "model": "MLP",
+      "hidden_layers": "(100, 50)",
+      "activation": "relu",
+      "R2": 0.85,
+      "MAE": 1200,
+      "note": "Resultat MLP - Test"
+    },
+    "previous_hash": "3df8be0cb9d15fe566785fbd83c0800f6f7dadc200099e1f3a6c406f4d4f5f37",
+    "hash": "ec083062b669b435c49750c18f12b7a1be6eb55db076363c600ed2b6f8654f87"
+  },
+  {
+    "index": 5,
+    "timestamp": "2026-11-15 15:38:34",
+    "data": {
+      "agent": "Etape 1 - Affichage Donnees",
+      "resultat": "Shape=(53940, 10), Lignes=53940, Colonnes=10, Columns=['carat', 'cut', 'color', 'clarity', 'depth', 'table', 'price', 'x', 'y', 'z']",
+      "date": "2026-11-15"
+    },
+    "previous_hash": "ec083062b669b435c49750c18f12b7a1be6eb55db076363c600ed2b6f8654f87",
+    "hash": "ef233eeb833bfa466bba4e8ccf18a799c87235ce298ec183b6fb8bc53d6bc5c6"
+  },
+  {
+    "index": 6,
+    "timestamp": "2026-11-15 15:39:19",
+    "data": {
+      "agent": "Step 1 - Data Display",
+      "result": "Shape=(53940, 10), Rows=53940, Columns=10, Column_Names=['carat', 'cut', 'color', 'clarity', 'depth', 'table', 'price', 'x', 'y', 'z']",
+      "date": "2026-11-15"
+    },
+    "previous_hash": "ef233eeb833bfa466bba4e8ccf18a799c87235ce298ec183b6fb8bc53d6bc5c6",
+    "hash": "0b74b5904785494f28d501bdfda51950320e3f6a84948a59a9be73ad06d79565"
+  },
+  {
+    "index": 7,
+    "timestamp": "2026-11-15 15:40:50",
+    "data": {
+      "agent": "Step 1 - Data Display",
+      "result": "Shape=(53940, 10), Rows=53940, Columns=10, Column_Names=['carat', 'cut', 'color', 'clarity', 'depth', 'table', 'price', 'x', 'y', 'z']",
+      "date": "2026-11-15"
+    },
+    "previous_hash": "0b74b5904785494f28d501bdfda51950320e3f6a84948a59a9be73ad06d79565",
+    "hash": "33a73bcc3aac4f7d065508f6b1f31f8f693695e3a965af4487ff8075eb696a89"
+  },
+  {
+    "index": 8,
+    "timestamp": "2026-11-15 15:43:23",
+    "data": {
+      "agent": "Step 1 - Data Cleaning",
+      "result": "Before=53940 rows, After=53774 rows, Removed=166 rows, Duplicates=146, Zero_xyz=35, Columns=['carat', 'cut', 'color', 'clarity', 'depth', 'table', 'price', 'x', 'y', 'z'], Saved as diamonds_clean.csv",
+      "date": "2026-11-15"
+    },
+    "previous_hash": "33a73bcc3aac4f7d065508f6b1f31f8f693695e3a965af4487ff8075eb696a89",
+    "hash": "4e723d6da4cf443e7b43dbb431834f86869acf6e51274185b27dfe27bc194922"
+  },
+  {
+    "index": 9,
+    "timestamp": "2026-11-15 15:44:26",
+    "data": {
+      "agent": "Step 2 - MLP Prediction",
+      "result": "Model=MLP (100,50), Split=80/20 chronological, Train=43019, Test=10755, MAE=$245.98, RMSE=$316.01",
+      "date": "2026-11-15"
+    },
+    "previous_hash": "4e723d6da4cf443e7b43dbb431834f86869acf6e51274185b27dfe27bc194922",
+    "hash": "4867b5e2dd4c06efdd22e89f5305f4b6c6757608f3c6edf52cb077ec369be4ae"
+  },
+  {
+    "index": 10,
+    "timestamp": "2026-11-15 15:46:42",
+    "data": {
+      "agent": "Step 2 - Encoding and Visualization",
+      "result": "Encoding done: cut 0-4, color 0-6, clarity 0-7. Visualizations: Price vs Carat scatter, Correlation Matrix. Correlation Carat-Price=0.9215",
+      "date": "2026-11-15"
+    },
+    "previous_hash": "4867b5e2dd4c06efdd22e89f5305f4b6c6757608f3c6edf52cb077ec369be4ae",
+    "hash": "b1bd75d8c0337c947a3fd4fc1fff46dd7d3f7a913560e1a199eb390bbb4c16c4"
+  },
+  {
+    "index": 11,
+    "timestamp": "2026-11-15 15:47:52",
+    "data": {
+      "agent": "Step 3 - Preprocessing and Chronological Split",
+      "result": "Cleaning: x,y,z>0, Features X=['carat', 'cut', 'color', 'clarity', 'depth', 'table', 'x', 'y', 'z'], Target=price, Preprocessing=StandardScaler + OneHotEncoder, Split=80/20 chronological, Train=(43019, 9), Test=(10755, 9), Preprocessed Train=(43019, 26)",
+      "date": "2026-11-15"
+    },
+    "previous_hash": "b1bd75d8c0337c947a3fd4fc1fff46dd7d3f7a913560e1a199eb390bbb4c16c4",
+    "hash": "9734606fcffae4f4547592007c38977041833babf57f93997b58250d248094eb"
+  },
+  {
+    "index": 12,
+    "timestamp": "2026-11-15 15:50:18",
+    "data": {
+      "agent": "Step 4 - MLP Modeling",
+      "result": "Model=Pipeline(StandardScaler+OneHotEncoder+MLP 100,50), Split=80/20 chronological, R2=-1.1397, MAE=$226.44, RMSE=$853.78, Train=(43019, 9), Test=(10755, 9)",
+      "date": "2026-11-15"
+    },
+    "previous_hash": "9734606fcffae4f4547592007c38977041833babf57f93997b58250d248094eb",
+    "hash": "53422a9d9b9b23aff44a8d60a7620c121f73942b45b2c5ef225115efe21ce086"
+  },
+  {
+    "index": 13,
+    "timestamp": "2026-11-15 15:52:05",
+    "data": {
+      "agent": "Step 4 - MLP Modeling",
+      "result": "Model=Pipeline(StandardScaler+OneHotEncoder+MLP 100,50), Split=80/20 chronological, R2=-1.1397, MAE=$226.44, RMSE=$853.78, Train=(43019, 9), Test=(10755, 9)",
+      "date": "2026-11-15"
+    },
+    "previous_hash": "53422a9d9b9b23aff44a8d60a7620c121f73942b45b2c5ef225115efe21ce086",
+    "hash": "3980d45cfd9fa5532010789307f7ac45f6d551a40e306a19f01c5994cb1dbb5a"
+  },
+  {
+    "index": 14,
+    "timestamp": "2026-11-15 15:53:45",
+    "data": {
+      "agent": "Step 4 - MLP Modeling",
+      "result": "Model=Pipeline(StandardScaler+OneHotEncoder+MLP 100,50), Split=80/20 chronological, R2=-1.1397, MAE=$226.44, RMSE=$853.78, Train=(43019, 9), Test=(10755, 9)",
+      "date": "2026-11-15"
+    },
+    "previous_hash": "3980d45cfd9fa5532010789307f7ac45f6d551a40e306a19f01c5994cb1dbb5a",
+    "hash": "ba250ca1660ccd1fe9598d872f5ba0e35b073c77f902815ee6a976c80387089c"
+  }
+]
